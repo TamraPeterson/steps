@@ -84,7 +84,7 @@ h3 {
 }
 
 .close {
-  position: absolute;
+  /* position: absolute; */
   top: 16px;
   right: 16px;
   border: none;
@@ -96,4 +96,10 @@ h3 {
 
 .close:hover {
   color: #7950f2;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
